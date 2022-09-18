@@ -777,11 +777,6 @@ address {
   margin-left: auto;
   margin-right: auto;
 }
-
-.checkbox-input {
-  appearance: none;
-}
-
 .checkbox-text {
   margin-left: 9px;
   font-weight: 400;
