@@ -542,7 +542,9 @@
         </div>
       </div>
     </footer>
-    <!-- ===Модальне вікно=== -->
+    <!-- ==========
+      Модальне вікно
+      ============= -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close>
@@ -553,16 +555,32 @@
         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
         <div role="form" class="register-form">
           Ім'я
-          <label>
-            <input class="input" type="text" name="register-form-Username" />
+          <label class="label">
+               <input class="input" type="text" name="register-form-Username" />
+            <span class="modal-icon-sp">
+             <svg class="modal-icon" wight="12" height="12">
+              <use href="./imeges/icons/symbol-defs.svg#person"></use>
+            </svg></span>
+         
           </label>
           Телефон
-          <label>
+          <label class="label">
             <input class="input" type="tel" name="register-form-phone-number" />
+            <span class="modal-icon-sp2">
+             <svg class="modal-icon" wight="12" height="13">
+              <use href="./imeges/icons/symbol-defs.svg#phone"></use>
+            </svg></span>
+            
+
           </label>
           Пошта
-          <label>
-            <input class="input" type="email" name="register-form-email" />
+          <label class="label">
+              <input class="input" type="email" name="register-form-email" />
+            <span class="modal-icon-sp3">
+             <svg class="modal-icon" wight="12" height="12">
+              <use href="./imeges/icons/symbol-defs.svg#email"></use>
+            </svg></span>
+          
           </label>
           <label>
             Коментар
@@ -574,7 +592,7 @@
               name="consent"
               value="consent"
             />
-
+            <span class="checkbox-icon"></span>
             <p class="checkbox-text"> Погоджуюся з розсилкою та приймаю
             <a href=""  <span class="conditions" >Умови договору</span></a></p>
           </label>

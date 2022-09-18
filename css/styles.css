@@ -770,6 +770,11 @@ address {
   margin-top: 4px;
 }
 
+.checkbox-input {
+  appearance: none;
+  position: absolute;
+}
+
 .checkbox {
   display: inline-flex;
   align-items: center;
@@ -777,6 +782,24 @@ address {
   margin-left: auto;
   margin-right: auto;
 }
+.checkbox-icon {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 3px;
+}
+
+.checkbox-input:checked + .checkbox-icon {
+  border-color: var(--akcent-color);
+  width: 16px;
+  height: 15px;
+  background-image: url('../imeges/icons/check.svg');
+  background-size: contain;
+  background-origin: border-box;
+}
+
 .checkbox-text {
   margin-left: 9px;
   font-weight: 400;
@@ -788,7 +811,57 @@ address {
 .conditions {
   color: var(--akcent-color);
 }
-/* ======================= */
+
+.label {
+  position: relative;
+}
+.input {
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.modal-icon-sp {
+  position: absolute;
+  left: 15px;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon-sp2 {
+  position: absolute;
+  left: 15px;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  display: inline-flex;
+  width: 13px;
+  height: 13px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon-sp3 {
+  position: absolute;
+  left: 15px;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  display: inline-flex;
+  width: 15px;
+  height: 13px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label:hover,
+.label:focus {
+  fill: var(--akcent-color);
+}
+/* ====================================
+======================================= */
 .sign-up {
   margin-left: 94px;
 }
