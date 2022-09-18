@@ -44,15 +44,12 @@
           <li>
             <a class="link contact" href="mailto:info@devstudio.com">
               <svg class="contact-icon" width="16" height="16">
-                <use href="./imeges/icons/symbol-defs.svg#envelope"></use></svg
-              >info@devstudio.com</a
-            >
+                <use href="./imeges/icons/symbol-defs.svg#envelope"></use></svg>info@devstudio.com</a>
           </li>
           <li>
             <a class="link contact" href="tel:+380961111111"
               ><svg class="contact-icon" width="10" height="16">
-                <use href="./imeges/icons/symbol-defs.svg#smartphone"></use></svg
-              >+38 096 111 11 11</a
+                <use href="./imeges/icons/symbol-defs.svg#smartphone"></use></svg>+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -63,7 +60,7 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-list">Ефективне рішення для вашого бізнесу</h1>
-          <button class="button" type="button" data-modal-open >Замовити продукт</button>
+          <button class="button" type="button" data-modal-open>Замовити продукт</button>
         </div>
       </section>
       <!-- Наші переваги -->
@@ -458,8 +455,7 @@
                 aria-label="Client#6"
               >
                 <svg class="client-icon" width="94" height="44">
-                  <use href="./imeges/icons/symbol-defs.svg#client6"></use></svg
-              ></a>
+                  <use href="./imeges/icons/symbol-defs.svg#client6"></use></svg></a>
             </li>
           </ul>
         </div>
@@ -534,15 +530,56 @@
             </li>
           </ul>
         </div>
+        <!-- ========Вікно підписки========-->
+        <div class="sign-up container">
+          <p class="sign-up-text">Підпишіться на розсилку</p>
+          <label>
+            <input class="sign-ua-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button class="sign-up-button" type="submit">Підписатися <svg class="send" width="24" height="24">
+                <use href="./imeges/icons/symbol-defs.svg#send"></use>
+              </svg></button>
+        </div>
       </div>
     </footer>
     <!-- ===Модальне вікно=== -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close>
-          <svg class="buttom-close" width="11" height="11"><use href="./imeges/icons/symbol-defs.svg#close"></use></svg>
+          <svg class="buttom-close" width="11" height="11">
+            <use href="./imeges/icons/symbol-defs.svg#close"></use>
           </svg>
         </button>
+        <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+        <div role="form" class="register-form">
+          Ім'я
+          <label>
+            <input class="input" type="text" name="register-form-Username" />
+          </label>
+          Телефон
+          <label>
+            <input class="input" type="tel" name="register-form-phone-number" />
+          </label>
+          Пошта
+          <label>
+            <input class="input" type="email" name="register-form-email" />
+          </label>
+          <label>
+            Коментар
+            <textarea class="comment" name="comment" rows="10" placeholder="Введіть текст"></textarea>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox-input"
+              type="checkbox"
+              name="consent"
+              value="consent"
+            />
+
+            <p class="checkbox-text"> Погоджуюся з розсилкою та приймаю
+            <a href=""  <span class="conditions" >Умови договору</span></a></p>
+          </label>
+          <button class="register-form-button" type="submit">Відправити</button>
+        </div>
       </div>
     </div>
     <!-- ====Скрипти====== -->
