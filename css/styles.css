@@ -747,7 +747,15 @@ address {
   cursor: pointer;
   margin-right: auto;
   margin-left: auto;
+  transform: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.register-form-button:focus,
+.register-form-button:hover {
+  background-color: #188ce8;
+}
+
 .register-form {
   display: flex;
   flex-direction: column;
