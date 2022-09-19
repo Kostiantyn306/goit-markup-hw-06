@@ -44,12 +44,15 @@
           <li>
             <a class="link contact" href="mailto:info@devstudio.com">
               <svg class="contact-icon" width="16" height="16">
-                <use href="./imeges/icons/symbol-defs.svg#envelope"></use></svg>info@devstudio.com</a>
+                <use href="./imeges/icons/symbol-defs.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li>
             <a class="link contact" href="tel:+380961111111"
               ><svg class="contact-icon" width="10" height="16">
-                <use href="./imeges/icons/symbol-defs.svg#smartphone"></use></svg>+38 096 111 11 11</a
+                <use href="./imeges/icons/symbol-defs.svg#smartphone"></use></svg
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -455,7 +458,8 @@
                 aria-label="Client#6"
               >
                 <svg class="client-icon" width="94" height="44">
-                  <use href="./imeges/icons/symbol-defs.svg#client6"></use></svg></a>
+                  <use href="./imeges/icons/symbol-defs.svg#client6"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
@@ -531,15 +535,18 @@
           </ul>
         </div>
         <!-- ========Вікно підписки========-->
-        <div class="sign-up container">
+        <form class="sign-up">
           <p class="sign-up-text">Підпишіться на розсилку</p>
           <label>
             <input class="sign-ua-input" type="email" name="email" placeholder="E-mail" />
-            </label>
-            <button class="sign-up-button" type="submit">Підписатися <svg class="send" width="24" height="24">
-                <use href="./imeges/icons/symbol-defs.svg#send"></use>
-              </svg></button>
-        </div>
+          </label>
+          <button class="sign-up-button" type="submit">
+            Підписатися
+            <svg class="send" width="24" height="24">
+              <use href="./imeges/icons/symbol-defs.svg#send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <!-- ==========
@@ -553,52 +560,48 @@
           </svg>
         </button>
         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
-        <div role="form" class="register-form">
-          Ім'я
+        <form class="register-form">
           <label class="label">
-               <input class="input" type="text" name="register-form-Username" required/>
-            <span class="modal-icon-sp">
-             <svg class="modal-icon" wight="12" height="12">
+            Ім'я
+            <input class="input" type="text" name="register-form-Username" required />
+            <svg class="modal-icon">
               <use href="./imeges/icons/symbol-defs.svg#person"></use>
-            </svg></span>
-         
+            </svg>
           </label>
-          Телефон
-          <label class="label">
-            <input class="input" type="tel" name="register-form-phone-number" required/>
-            <span class="modal-icon-sp2">
-             <svg class="modal-icon" wight="12" height="13">
-              <use href="./imeges/icons/symbol-defs.svg#phone"></use>
-            </svg></span>
-            
 
-          </label>
-          Пошта
           <label class="label">
-              <input class="input" type="email" name="register-form-email" required/>
-            <span class="modal-icon-sp3">
-             <svg class="modal-icon" wight="12" height="12">
+            Телефон
+            <input class="input" type="tel" name="register-form-phone-number" required />
+            <svg class="modal-icon">
+              <use href="./imeges/icons/symbol-defs.svg#phone"></use>
+            </svg>
+          </label>
+
+          <label class="label">
+            Пошта
+            <input class="input" type="email" name="register-form-email" required />
+            <svg class="modal-icon">
               <use href="./imeges/icons/symbol-defs.svg#email"></use>
-            </svg></span>
-          
+            </svg>
           </label>
           <label>
             Коментар
-            <textarea class="comment" name="comment" rows="10" placeholder="Введіть текст"></textarea>
+            <textarea
+              class="comment"
+              name="comment"
+              rows="10"
+              placeholder="Введіть текст"
+            ></textarea>
           </label>
           <label class="checkbox">
-            <input class="checkbox-input"
-              type="checkbox"
-              name="consent"
-              value="consent"
-              required
-            />
+            <input class="checkbox-input" type="checkbox" name="consent" value="consent" required />
             <span class="checkbox-icon"></span>
-            <p class="checkbox-text"> Погоджуюся з розсилкою та приймаю
-            <a href=""  <span class="conditions" >Умови договору</span></a></p>
+            <span class="checkbox-text">
+              Погоджуюся з розсилкою та приймаю <a href="" class="conditions">Умови договору</a>
+            </span>
           </label>
           <button class="register-form-button" type="submit">Відправити</button>
-        </div>
+        </form>
       </div>
     </div>
     <!-- ====Скрипти====== -->
