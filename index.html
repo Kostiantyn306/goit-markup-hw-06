@@ -556,7 +556,7 @@
         <div role="form" class="register-form">
           Ім'я
           <label class="label">
-               <input class="input" type="text" name="register-form-Username" />
+               <input class="input" type="text" name="register-form-Username" required/>
             <span class="modal-icon-sp">
              <svg class="modal-icon" wight="12" height="12">
               <use href="./imeges/icons/symbol-defs.svg#person"></use>
@@ -565,7 +565,7 @@
           </label>
           Телефон
           <label class="label">
-            <input class="input" type="tel" name="register-form-phone-number" />
+            <input class="input" type="tel" name="register-form-phone-number" required/>
             <span class="modal-icon-sp2">
              <svg class="modal-icon" wight="12" height="13">
               <use href="./imeges/icons/symbol-defs.svg#phone"></use>
@@ -575,7 +575,7 @@
           </label>
           Пошта
           <label class="label">
-              <input class="input" type="email" name="register-form-email" />
+              <input class="input" type="email" name="register-form-email" required/>
             <span class="modal-icon-sp3">
              <svg class="modal-icon" wight="12" height="12">
               <use href="./imeges/icons/symbol-defs.svg#email"></use>
@@ -591,6 +591,7 @@
               type="checkbox"
               name="consent"
               value="consent"
+              required
             />
             <span class="checkbox-icon"></span>
             <p class="checkbox-text"> Погоджуюся з розсилкою та приймаю
