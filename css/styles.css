@@ -493,7 +493,12 @@ address {
 .footer-lists {
   display: block;
   justify-content: center;
-  margin-left: 70px;
+
+  margin-right: 93px;
+}
+.address-list {
+  width: 231px;
+  margin-right: 70px;
 }
 /* ========Іконки=======  */
 .socials-link {
@@ -774,6 +779,11 @@ address {
   margin-bottom: 10px;
   margin-top: 4px;
 }
+.input:focus-within,
+.comment:focus-within {
+  border-color: var(--akcent-color);
+  fill: var(--akcent-color);
+}
 
 .checkbox-input {
   appearance: none;
@@ -867,9 +877,6 @@ address {
 }
 /* ====================================
 ======================================= */
-.sign-up {
-  margin-left: 94px;
-}
 
 .sign-ua-input {
   width: 358px;
